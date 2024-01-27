@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="icon" type="image/jpg" href="icon.jpg">
+    <link rel="stylesheet" href="portfolio.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap');
+    </style>
+    <script src="https://kit.fontawesome.com/0a01c8a98b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <i class="fa fa-user" aria-hidden="true"></i>
+
+        <h2>
+            RUTBA MANZOOR</h2>
+        <ul class="lists">
+            <li>Resume</li>
+            <li>Work</li>
+            <li>Get in touch</li>
+        </ul>
+    </nav>
+    <header>
+        <div class="container">
+
+            <h1>HI!
+                <br>I AM A DEVELOPER
+            </h1>
+            <P>Hello there! I'm a CSS and JS wizard, turning ideas into engaging web experiences.
+                <br>
+                i am based in INDIA,
+                <br>
+                i am currently pursuing my BTECH in computer science.
+                <br>
+                Precision meets creativity in my code, ensuring seamless and interactive designs.
+                <br> Welcome to my
+                portfolio, where innovation takes center stage.
+                <br> Let's build something amazing together!
+            </P>
+            <button type="button">MORE ABOUT ME</button>
+            <img src="https://i.pinimg.com/564x/3c/70/7d/3c707df82142f314d40afa2a4868ef48.jpg" alt="">
+        </div>
+    </header>
+    <section>
+        <div class="Page2">
+            <h1>EDUCATION
+                <br>BACKGROUND
+            </h1>
+            <div class="box1">
+                <ul>
+                    <li>
+                        <h2>SCHOOLING:</h2>She attended XYZ Public School, Throughout her primary and secondary
+                        schooling, SHE consistently
+                        excelled in various subjects.
+                    </li>
+                    <li>
+                        <h2>TRANSITION TO NON-MED STREAM:</h2> chose the non-medical stream for her higher secondary
+                        education, pursuing subjects such as Physics, Chemistry, and Mathematics.
+                    </li>
+                    <li>
+                        <H2>Entrance into Computer Science and Engineering :</H2>Motivated by her growing interest in
+                        technology, SHE transitioned to pursue a Bachelor's degree in Computer Science and Engineering
+                        at ABC University.
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="page3">
+            <h1> EXPERIENCE</h1>
+            <div class="box2">
+                <ul>
+                    <li>
+                        <h2>Junior Web Developer | ABC Tech Solutions</h2>
+                        City, State | June 20XX - Present
+                    </li>
+                    <li>
+                        <h2>Intern | Web Design Co.</h2>
+                        City, State | May 20XX - August 20XX
+
+                    </li>
+                    <li>
+                        <h2>Intern | front end developer</h2>
+                        City,State | April 20XX - Present
+                    </li>
+                </ul>
+            </div>
+            <h1>SKILLS</h1>
+            <div class="box3">
+                <ul>
+                    <li>
+                        <h2>Front end development:</h2>
+                        <br>-HTML5
+                        <br>-CSS3 (Sass/SCSS)
+                        <br>-JavaScript (ES6+)
+                        
+                    </li>
+                    <li>
+                        <h2>Back end development</h2>
+                            <br>-Node.js
+                            <br>-Express.js
+                
+                    </li>
+                    <h2>Tech and Tools</h2>
+                    <li>
+                        
+                        <br>-Git
+                       <br> -npm
+                       <br> -Visual Studio Code
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </section>
+    <footer>
+      <h1> CONTACT</h1>
+        <ul>
+            <li><i class="fa fa-envelope" aria-hidden="true"></i>
+                Email: abcd@example.com</li>
+            <li><i class="fa fa-phone-square" aria-hidden="true"></i>
+                Phone: (555) 123-4567
+            </li>
+            <li><i class="fa fa-linkedin" aria-hidden="true"></i>
+                LinkedIn: linkedin.com/in/abcd</li>
+            <li><i class="fa fa-github" aria-hidden="true"></i>
+                GitHub: github.com/abcd</li>
+        </ul>
+    </footer>
+
+</body>
+
+</html>
