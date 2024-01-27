@@ -1,0 +1,253 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://i.pinimg.com/564x/fa/40/0b/fa400b869153f3628d9db859bac8fe7c.jpg);
+    background-position: bottom;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.order {
+    border-radius: 30px;
+    height: 30px;
+    width: 100px;
+    border-style: none;
+}
+
+.headercontent h1 {
+    font-size: 7vmin;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+.headercontent h2 {
+    font-size: 5vmin;
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+}
+
+.navbar {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    justify-content: space-between;
+    color: whitesmoke;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navlinks {
+    display: flex;
+    align-items: center;
+}
+
+.navlinks li {
+    margin: 0px 30px;
+}
+
+/* second box css */
+.flexcontainer {
+
+    border-radius: 3px;
+    background-color: floralwhite;
+    border: solid 2px black;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    align-content: flex-start;
+    gap: 20px 50px;
+    justify-content: center;
+    border-style: none;
+
+}
+
+.h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: floralwhite;
+    height: 100px;
+    font-size: xx-large;
+}
+
+
+.items {
+    border: solid 2px rgb(172, 183, 190);
+    height: 160px;
+    width: 130px;
+    border-radius: 5px;
+    background-color: rgb(235, 224, 224);
+    padding: 3px;
+    margin: 2px;
+    font-weight: bold;
+
+
+}
+
+.items img {
+    height: 120px;
+    width: 120px;
+    border-radius: 3px;
+}
+
+.flexcontainer2 {
+    border-radius: 3px;
+    background-color: floralwhite;
+    border: solid 2px black;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    align-content: flex-start;
+    gap: 20px 50px;
+    justify-content: center;
+    border-style: none;
+}
+
+.item2 {
+    border: solid 2px rgb(172, 183, 190);
+    height: 160px;
+    width: 130px;
+    border-radius: 5px;
+    background-color: rgb(235, 224, 224);
+    padding: 3px;
+    margin: 2px;
+    font-weight: bold;
+}
+
+.item2 img {
+    height: 120px;
+    width: 120px;
+    border-radius: 3px;
+}
+
+/* third box css */
+.bannercontain {
+    height: 50vh;
+    width: 100vw;
+    background-image: url(https://images.pexels.com/photos/585750/pexels-photo-585750.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+    background-size: cover;
+    background-position: left;
+    border: 2px solid black;
+}
+
+.bannercontain h2 {
+    margin-left: 100px;
+    margin-top: 100px;
+    font-style: oblique;
+    font-size: 40px;
+}
+
+.bannercontain button {
+    border-radius: 40px;
+    width: 200px;
+    height: 40px;
+    margin-left: 100px;
+    margin-top: 30px;
+    background-color: #482c22;
+    color: white;
+    border-style: none;
+}
+
+/* box 4 css */
+.containflex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.item3 {
+    height: 200px;
+    width: 350px;
+    border-radius: 10px;
+    background-color: rgb(235, 224, 224);
+    border: solid 2px black;
+    color: rgb(54, 53, 53);
+    padding: 20px;
+    margin-top: 30px;
+    border-style: none;
+}
+
+
+
+.customerrating h3 {
+    font-style: normal;
+    font-size: 40px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.customerrating {
+    height: 50vh;
+    background-color: floralwhite;
+}
+
+/* box 5 css */
+.join {
+    background-image: url(https://i.pinimg.com/564x/0e/f5/7c/0ef57c59ff9548d7c97435623e136ba6.jpg);
+    height: 50vh;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.join h1 {
+    font-size: 30px;
+    font-style: oblique;
+    
+}
+
+.join button {
+    height: 40px;
+    width: 120px;
+    border-radius: 40px;
+    background-color: #482c22;
+    color: floralwhite;
+    border-style: none;
+    
+}
+
+#email {
+    height: 40px;
+    width: 220px;
+    border-radius: 40px;
+    border-style: none;
+}
+
+/* footer css */
+footer {
+    height: 30vh;
+    background-color: #482c22;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+ul {
+    list-style: none;
+    line-height: 25px;
+}
