@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing page</title>
+    <link rel="stylesheet" href="landingpage.css">
+    <script src="https://kit.fontawesome.com/0a01c8a98b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1>coffee</h1>
+        <ul class="navlinks">
+            <li>home</li>
+            <li>coffee</li>
+            <li>bakery</li>
+            <li>shop</li>
+            <li>about</li>
+            <li>login</li>
+        </ul>
+    </nav>
+    <header>
+        <div class="headercontent">
+            <h2>Welcome!</h2>
+            <div class="line"></div>
+            <h1>We Serve the Richest Coffee in the City!</h1>
+            <button class="order">order now</button>
+        </div>
+
+    </header>
+    <section>
+        <h1 class="h1">our special coffee</h1>
+        <div class="flexcontainer">
+
+            <div class="items">
+                <img src="https://i.pinimg.com/564x/05/dd/55/05dd55b85df17bd5f4d5e62ba16f572e.jpg" alt="">
+                    lungo coffee
+            </div>
+            <div class="items">
+                <img src="https://i.pinimg.com/564x/8d/7c/e6/8d7ce6858a9f505f66785e231dc898d9.jpg" alt="">
+                dalgona coffee
+            </div>
+            <div class="items">
+                <img src="https://i.pinimg.com/564x/5c/7a/43/5c7a43138d9740941d0326a156551135.jpg" alt="">
+                iced coffee
+            </div>
+            <div class="items">
+                <img src="https://i.pinimg.com/564x/b3/2b/19/b32b19517b778f20435dd5a071ee7ebd.jpg" alt="">
+                filter coffee
+            </div>
+        </div>
+        <h1 class="h1">our special desserts</h1>
+        <div class="flexcontainer2">
+            <div class="item2">
+                <img src="https://i.pinimg.com/564x/41/c7/bf/41c7bf3422cff4a9ac1fb49f4d545513.jpg" alt="">
+                gulab jamun
+            </div>
+            <div class="item2">
+                <img src="https://i.pinimg.com/564x/95/e7/d4/95e7d4ec8408396f259e1944ddcffb6b.jpg" alt="">
+                choco tiramisu
+            </div>
+            <div class="item2">
+                <img src="https://i.pinimg.com/564x/23/cc/17/23cc176e7e967058152d2dcb51a5f7fc.jpg" alt="">
+                churros
+            </div>
+            <div class="item2">
+                <img src="https://i.pinimg.com/564x/27/11/6d/27116de4bbfdd10da3cebe84f4e0ee99.jpg" alt="">
+                lamingtons
+
+            </div>
+
+        </div>
+        <div class="bannercontain">
+
+            <h2>check out our best coffee betans</h2>
+            <button>explore our products>></button>
+        </div>
+        <div class="customerrating">
+
+            <h3>Our Happy Customers</h3>
+            <div class="containflex">
+                <div class="item3"> <i class="fa-solid fa-user"></i>SAM WILLIAMS <i class="fa-solid fa-star"></i><i
+                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                        class="fa-solid fa-star"></i>
+                    <br>i have been loving the capuccino coffee of your brand it is a classic Italian coffee drink that
+                    consists of a shot of espresso, steamed milk, and a layer of frothed milk on top. It is a perfect
+                    drink for those who love the strong flavor of espresso, but also enjoy the creaminess and sweetness
+                    of milk.
+                </div>
+                <div class="item3"> <i class="fa-solid fa-user"></i>JANE ADAMS <i class="fa-solid fa-star"></i><i
+                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                        class="fa-regular fa-star"></i></i>
+                    <br> i have been loving the coffee flavours that have been coming out recently!my favorite is the
+                    lungo coffee and the go to snack is tiramisu...love the coffee aroma!
+                </div>
+                <div class="item3"> <i class="fa-solid fa-user"></i>ANGELINA <i class="fa-solid fa-star"></i><i
+                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                        class="fa-solid fa-star"></i>
+                    <br>my fav is the iced coffee which is a refreshing and energizing drink that can be enjoyed in any
+                    season. It is made by brewing coffee normally and then cooling it down before pouring it over ice.
+                    There are many ways to customize iced coffee, such as adding milk, cream, sugar, syrup, or ice
+                    cream.
+                </div>
+            </div>
+        </div>
+        <div class="join">
+            <h1>Join in & get 15% off!</h1>
+            <input type="text" name="email" id="email" placeholder="     Email address   ">
+            <button type="submit">subscribe</button>
+
+        </div>
+    </section>
+    <footer>
+        <h1>coffee</h1>
+<div>
+    <h2>privacy </h2>
+   <ul>
+    <li>terms of use</li>
+    <li>privacy policy</li>
+    <li>cookies</li>
+   </ul>
+</div>
+<div>
+    <h2>Services</h2>
+    <ul>
+        <li>shop</li>
+        <li>order ahead</li>
+        <li>menu</li>
+    </ul>
+</div>
+<div>
+    <h2>About US</h2>
+    <ul>
+        <li>location</li>
+        <li>about us</li>
+        <li>our story</li>
+    </ul>
+</div>
+<div>
+    <h2>Information</h2>
+    <ul>
+        <li>plans & privacy</li>
+        <li>sell your products</li>
+        <li>jobs</li>
+    </ul>
+</div>
+<div>
+    <h2>Social media</h2>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-linkedin"></i>
+</div>
+
+
+    </footer>
+
+</body>
+
+</html>
