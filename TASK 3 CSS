@@ -1,0 +1,69 @@
+.mx-auto {
+    margin: auto;
+}
+body{
+    background-color:whitesmoke;
+    
+}
+
+.container{
+    width: 25vw;
+    height:75vh;
+    background-color:rgb(201, 193, 231);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.flex {
+    display: flex;
+
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.text-center {
+    align-items: center;
+    justify-content: center;
+}
+
+.row {
+    margin: 5px 0;
+}
+
+.button {
+    padding: 15px;
+    margin: 3px;
+    border-radius: 15px;
+    border-style: none;
+    background-color: rgb(70, 67, 85);
+    color: antiquewhite;
+    cursor: pointer;
+    width: 55px;
+    font-size: x-large;
+    box-shadow: 3px 3px 3px 3px rgb(72, 61, 70);
+
+}
+.equals{
+    border-radius: 199px;
+}
+
+.row input {
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-size: large;
+}
+
+.zero {
+    width: 120px;
+    border-radius: 15px;
+}
+
+.end-button {
+    background-color: rgb(162, 132, 221);
+    border-radius:199px ;
+}
